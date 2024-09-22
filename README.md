@@ -36,7 +36,7 @@ The dataset is structured as JSON files, including training.json, validation.jso
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
 If you find this work useful, please cite our paper:
