@@ -1,4 +1,4 @@
 ![Alt text](banner.jpeg "HintQA")
 
-# HintQA
+# HintQA: Exploring Hint Generation Approaches in Open-Domain Question Answering
 Exploring Hint Generation Approaches in Open Domain Question Answering
