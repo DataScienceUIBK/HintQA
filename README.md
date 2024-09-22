@@ -6,4 +6,40 @@
 <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/static/v1?label=License&message=MIT&color=red"></a>
 
 # HintQA: Exploring Hint Generation Approaches in Open-Domain Question Answering
-Exploring Hint Generation Approaches in Open Domain Question Answering
+*HintQA* revolutionizes the field of automatic question answering (QA) by introducing a novel context preparation method that utilizes Automatic Hint Generation (HG). Unlike traditional QA systems that rely on either retrieval-based methods (sourcing documents from databases like Wikipedia) or generation-based approaches (using large language models to generate context), HintQA prompts large language models to produce hints that guide the answering process.
+
+## Dataset
+
+*TriviaHG* comprises several sub-datasets, each encompassing [⬇️Training](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true), [⬇️Validation](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/validation.json?download=true), and [⬇️Test](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/test.json?download=true) sets. You can access and download each subset by clicking on its respective link.
+
+The dataset is structured as JSON files, including training.json, validation.json, and test.json for training, validation, and test phases, respectively:
+
+```json
+[
+    {
+        "Q_ID": "",
+        "Question": "",
+        "Hints": [ ],
+        "ExactAnswer": "",
+        "Answers": [  ],
+        "MajorType": "",
+        "MinorType": "",
+        "Candidates_Answers": [  ],
+        "Scores": [  ],
+        "Convergence": [  ],
+        "Familiarity": [  ],
+        "Convergence_Ranked": [  ],
+        "T5_Ranked": [  ],
+    }
+]
+
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Citation
+If you find this work useful, please cite our paper:
+
+## Acknowledgments
+Thanks to our contributors and the University of Innsbruck for supporting this project.
