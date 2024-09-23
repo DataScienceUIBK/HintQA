@@ -44,7 +44,7 @@ These datasets are available as JSON files, containing both **Vanilla.json** and
 <img src="images/comming_soon.png" width="256">
 
 ## ⚗️ Experiments
-The paper conducts extensive experiments on these datasets using zero and few-shot strategies across various numbers of hints and reranking methods to show various scenarios and the performance of the HintQA approach. To read more detail about the experiments, baselines, and scenarios, please refer to the paper. We include the results of our experiments in the `Experiments`.
+The paper presents extensive experiments on these datasets, employing zero-shot and few-shot strategies with varying numbers of hints and reranking methods to explore different scenarios and evaluate the performance of the HintQA approach. For more details on the experiments, baselines, and scenarios, please refer to the paper. The results of our experiments are provided in the `Experiments` directory.
 
 ## 🪪License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
