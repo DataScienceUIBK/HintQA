@@ -9,10 +9,9 @@
 *HintQA* revolutionizes the field of automatic question answering by introducing a novel context preparation method that utilizes Automatic Hint Generation. Unlike traditional QA systems that rely on either retrieval-based methods (sourcing documents from databases like Wikipedia) or generation-based approaches (using large language models to generate context), HintQA prompts large language models to produce hints that guide the answering process.
 
 ## Datasets
-In this study, we have generated up to 10 hints for each question of popular datasets [⬇️TriviaHG](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true), [⬇️NaturalQuestions](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true), and [⬇️WebQ](https://huggingface.co/datasets/JamshidJDMY/TriviaHG/resolve/main/training.json?download=true) using Automatic Hint Generation systems. You can access and download each subset by clicking on its respective link.
+In this study, we generated up to 10 hints for each question from popular datasets: [TriviaQA](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/TriviaQA), [NaturalQuestions](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/NQ), and [WebQ](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/WebQ) using the [Automatic Hint Generation systems](https://github.com/DataScienceUIBK/TriviaHG). You can access and download each dataset by following the corresponding links.
 
-The datasets are structured as JSON files, including Vanilla.json, FineTuned.json, and test.json for training, validation, and test phases, respectively:
-
+These datasets are available as JSON files, containing both Vanilla.json and Finetuned.json versions. The Finetuned.json was generated using the LLaMA 70b model, which was fine-tuned on [TriviaHG](https://github.com/DataScienceUIBK/TriviaHG), while Vanilla.json was created using the base, untrained model.
 ```json
 [
     {
