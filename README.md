@@ -10,10 +10,14 @@
 
 ## 🗃️Datasets
 In this study, we generated up to 10 hints for each question from popular datasets: [⬇️TriviaQA](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/TriviaQA), [⬇️NaturalQuestions](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/NQ), and [⬇️WebQ](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/WebQ) using the [Automatic Hint Generation systems](https://github.com/DataScienceUIBK/TriviaHG). You can access and download each dataset by following the corresponding links. The statistics of the datasets are below: 
-|                   | TriviaQA | NaturalQuestions | WebQ  |
-| ----------------- | -------- | ---------------- | ----- |
-| Num. of Questions | 14,645   | 1,000            | 1,000 |
-| Num. of Hints     | 140,973  | 9,638            | 9,619 |
+|  Dataset          |  Scenario | Num. of Questions | Num. of Hints |
+| ----------------- | --------- | ----------------- | ------------- |
+| TriviaQA          | Finetuned | 11,313            | 105,709       |
+| TriviaQA          | Vanilla   | 11,313            | 103,018       |
+| NaturalQuestions  | Finetuned | 3,610             | 33,131        |
+| NaturalQuestions  | Vanilla   | 3,610             | 30,976        |
+| WebQ              | Finetuned | 2,032             | 16,978        |
+| WebQ              | Vanilla   | 2,032             | 15,812        |
 
 These datasets are available as JSON files, containing both **Vanilla.json** and **Finetuned.json** versions. The Finetuned.json was generated using the LLaMA 70b model, which was fine-tuned on [💡TriviaHG](https://github.com/DataScienceUIBK/TriviaHG), while Vanilla.json was created using the base, untrained model.
 ```json
@@ -37,7 +41,8 @@ These datasets are available as JSON files, containing both **Vanilla.json** and
 
 ```
 ## ⚗️ Reproducibility
-![Alt text](comming_soon.png "Code"=250x250)
+<img src="comming_soon.png" width="256">
+
 ## 🪪License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
