@@ -52,7 +52,7 @@ The paper presents extensive experiments on these datasets, employing zero-shot 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ✨Citation
-If you find [this work](https://arxiv.org/abs/2409.16096) useful, please cite our paper:
+If you find this work useful, please cite [📜our paper](https://arxiv.org/abs/2409.16096):
 ### Plain
 Mozafari, Jamshid, Abdelrahman Abdallah, Bhawna Piryani, and Adam Jatowt. "Exploring Hint Generation Approaches in Open-Domain Question Answering." arXiv preprint arXiv:2409.16096 (2024).
 ### Bibtex
