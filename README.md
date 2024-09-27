@@ -52,10 +52,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## ✨Citation
 If you find this work useful, please cite our paper:
 ### Plain
-
+Mozafari, Jamshid, Abdelrahman Abdallah, Bhawna Piryani, and Adam Jatowt. "Exploring Hint Generation Approaches in Open-Domain Question Answering." arXiv preprint arXiv:2409.16096 (2024).
 ### Bibtex
 ```bibtex
-
+@article{mozafari2024exploring,
+  title={Exploring Hint Generation Approaches in Open-Domain Question Answering},
+  author={Mozafari, Jamshid and Abdallah, Abdelrahman and Piryani, Bhawna and Jatowt, Adam},
+  journal={arXiv preprint arXiv:2409.16096},
+  year={2024}
+}
 ```
 
 ## 🙏Acknowledgments
