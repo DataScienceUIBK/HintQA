@@ -54,14 +54,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## ✨Citation
 If you find this work useful, please cite [📜our paper](https://arxiv.org/abs/2409.16096):
 ### Plain
-Mozafari, Jamshid, Abdelrahman Abdallah, Bhawna Piryani, and Adam Jatowt. "Exploring Hint Generation Approaches in Open-Domain Question Answering." arXiv preprint arXiv:2409.16096 (2024).
+Jamshid Mozafari, Abdelrahman Abdallah, Bhawna Piryani, and Adam Jatowt. 2024. Exploring Hint Generation Approaches for Open-Domain Question Answering. In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 9327–9352, Miami, Florida, USA. Association for Computational Linguistics.
 ### Bibtex
 ```bibtex
-@article{mozafari2024exploring,
-  title={Exploring Hint Generation Approaches in Open-Domain Question Answering},
-  author={Mozafari, Jamshid and Abdallah, Abdelrahman and Piryani, Bhawna and Jatowt, Adam},
-  journal={arXiv preprint arXiv:2409.16096},
-  year={2024}
+@inproceedings{mozafari-etal-2024-exploring,
+    title = "Exploring Hint Generation Approaches for Open-Domain Question Answering",
+    author = "Mozafari, Jamshid  and
+      Abdallah, Abdelrahman  and
+      Piryani, Bhawna  and
+      Jatowt, Adam",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.546",
+    doi = "10.18653/v1/2024.findings-emnlp.546",
+    pages = "9327--9352"
 }
 ```
 
