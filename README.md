@@ -10,7 +10,7 @@
 # HintQA: Exploring Hint Generation Approaches in Open-Domain Question Answering
 *HintQA* revolutionizes the field of automatic question answering by introducing a novel context preparation method that utilizes Automatic Hint Generation. Unlike traditional QA systems that rely on either retrieval-based methods (sourcing documents from databases like Wikipedia) or generation-based approaches (using large language models to generate context), HintQA prompts large language models to produce hints that guide the answering process.
 
-## <img src="https://github.com/DataScienceUIBK/TriviaHG/blob/main/Framework/gif-dan.gif" width="32" height="32"/> Attention<img src="https://github.com/DataScienceUIBK/TriviaHG/blob/main/Framework/gif-dan.gif" width="32" height="32"/>
+## <img src="https://github.com/DataScienceUIBK/HintQA/blob/main/images/gif-dan.gif" width="32" height="32"/> Attention<img src="https://github.com/DataScienceUIBK/HintQA/blob/main/images/gif-dan.gif" width="32" height="32"/>
 
 As of **February 2025**, we recommend using **HintEval**, the framework for **hint generation and evaluation**. HintEval includes the **TriviaHG dataset** and the evaluation metrics introduced in the TriviaHG paper, such as **Convergence** and **Familiarity**, making it easier than ever to work with hints.  
 
