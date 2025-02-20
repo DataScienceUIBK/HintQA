@@ -62,7 +62,7 @@ To replicate the results of **HintQA**, you can run the **[Demo](https://colab.r
 
 - 🏗️ **Generating a dataset:** Create a custom dataset with questions and their corresponding answers.  
 - 💡 **Generating hints:** Use a model to generate hints that will later be utilized in the RAG process.  
-- 🔄 **RAG Pipeline:** Use hints in the generation process to guide the LLM in generating more accurate answers.  
+- 🔄 **RAG Pipeline:** Use hints in the RAG process to guide the LLM in generating more accurate answers.  
 - 📊 **Displaying results:** Compare the predicted answers with the actual (ground truth) answers for evaluation.  
 
 For a more detailed explanation, refer to the **[HintEval Documentation](https://hinteval.readthedocs.io)**. 
