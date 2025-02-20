@@ -55,9 +55,17 @@ These datasets are available as JSON files, containing both **Vanilla.json** and
 ]
 
 ```
+
 ## ♻️ Reproducibility
 
-To replicate the results of **HintQA**, we encourage you to explore the **[RAG Pipeline](https://hinteval.readthedocs.io/en/latest/howtos/applications/rag_pipeline.html)** section in the **HintEval** documentation. This guide provides step-by-step instructions on implementing the methodology outlined in the HintQA paper.  
+To replicate the results of **HintQA**, you can run the **[Demo](https://colab.research.google.com/github/DataScienceUIBK/HintQA/blob/main/Code/demo.ipynb)** on Google Colab, which provides an end-to-end implementation of the **RAG Pipeline** using **HintEval** library. The demo walks you through the entire process, including:
+
+- 🏗️ **Generating a dataset:** Create a custom dataset with questions and their corresponding answers.  
+- 💡 **Generating hints:** Use a model to generate hints that will later be utilized in the RAG process.  
+- 🔄 **RAG Pipeline:** Use hints in the generation process to guide the LLM in generating more accurate answers.  
+- 📊 **Displaying results:** Compare the predicted answers with the actual (ground truth) answers for evaluation.  
+
+For a more detailed explanation, refer to the **[HintEval Documentation](https://hinteval.readthedocs.io)**. 
 
 ## ⚗️ Experiments
 The paper presents extensive experiments on these datasets, employing zero-shot and few-shot strategies with varying numbers of hints and reranking methods to explore different scenarios and evaluate the performance of the HintQA approach. For more details on the experiments, baselines, and scenarios, please refer to the paper. The results of our experiments are provided in the `Experiments` directory.
