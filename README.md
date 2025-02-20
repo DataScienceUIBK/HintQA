@@ -12,15 +12,15 @@
 
 ## <img src="https://github.com/DataScienceUIBK/HintQA/blob/main/images/gif-dan.gif" width="32" height="32"/> Attention<img src="https://github.com/DataScienceUIBK/HintQA/blob/main/images/gif-dan.gif" width="32" height="32"/>
 
-As of **February 2025**, we recommend using **HintEval**, the framework for **hint generation and evaluation**. HintEval includes the **TriviaHG dataset** and the evaluation metrics introduced in the TriviaHG paper, such as **Convergence** and **Familiarity**, making it easier than ever to work with hints.  
+As of **February 2025**, we strongly recommend using **HintEval**, the dedicated framework for **hint generation and evaluation**. HintEval now incorporates the **HintQA datasets**, including the rich datasets of TriviaQA, NQ, and WebQ. Each dataset is enhanced to provide up to 10 hints per question, facilitating an unparalleled ease in handling hints.
 
-Check out HintEval here:  
+🔗 Explore HintEval's resources:
 - 📖 **[HintEval Documentation](http://hinteval.readthedocs.io/)**
 - 📦 **[HintEval PyPI Installation](https://pypi.org/project/hinteval/)**
 - 💻 **[HintEval GitHub Repository](https://github.com/DataScienceUIBK/HintEval)**
 - 📜 **[HintEval Paper (arXiv)](https://doi.org/10.48550/arXiv.2502.00857)**  
 
-For **seamless integration** of hint generation and evaluation, we highly recommend **migrating** to **HintEval**!
+For a **seamless integration** of hint generation and evaluation in your projects, transitioning to **HintEval** is highly recommended!
 
 ## 🗃️Datasets
 In this study, we generated up to 10 hints for each question from popular datasets: [⬇️TriviaQA](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/TriviaQA), [⬇️NaturalQuestions](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/NQ), and [⬇️WebQ](https://huggingface.co/datasets/JamshidJDMY/HintQA/tree/main/WebQ) using the [Automatic Hint Generation systems](https://github.com/DataScienceUIBK/TriviaHG). You can access and download each dataset by following the corresponding links. The statistics of the datasets are below: 
